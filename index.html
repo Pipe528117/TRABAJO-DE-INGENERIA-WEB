@@ -1,115 +1,56 @@
 <!DOCTYPE html>
-<!-- Indica al navegador que este documento usa HTML5 -->
-
 <html lang="es">
-<!-- Elemento raíz del documento HTML. El atributo lang indica el idioma principal -->
-
 <head>
-  <!-- Contiene metadatos de la página, configuración y enlaces a recursos externos -->
-
   <meta charset="UTF-8">
-  <!-- Define la codificación de caracteres como UTF-8 para soportar tildes, ñ y símbolos -->
-
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- Indica compatibilidad con versiones modernas de Internet Explorer/Edge -->
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Hace que la página sea responsive en dispositivos móviles -->
-
   <title>EcoRuta</title>
-  <!-- Título que aparece en la pestaña del navegador -->
-
   <link rel="stylesheet" href="css/style_uno.css">
-  <!-- Enlaza el archivo CSS externo que da estilos a la página -->
 </head>
 
 <body>
 
-  
-  <!-- Aquí va todo el contenido visible de la página-->
-
   <header class="l-header" id="header">
-    <!-- Encabezado principal del sitio, normalmente contiene el menú de navegación -->
-
     <nav class="nav tk-container">
-      <!-- Barra de navegación principal -->
-
       <a href="#" class="nav_logo">EcoRuta</a>
-      <!-- Logo o nombre del sitio; al hacer clic puede llevar al inicio -->
 
       <div class="nav_menu">
-        <!-- Contenedor del menú de navegación -->
-
         <ul class="nav_list">
-          <!-- Lista de enlaces del menú -->
-
           <li class="nav_item"><a href="#home" class="nav_link active-link">Inicio</a></li>
-          <!-- Enlace que lleva a la sección Inicio -->
-
           <li class="nav_item"><a href="#about" class="nav_link">Nosotros</a></li>
-          <!-- Enlace que lleva a la sección Nosotros -->
-
           <li class="nav_item"><a href="#services" class="nav_link">Servicios</a></li>
-          <!-- Enlace que lleva a la sección Servicios -->
-
-          <li class="nav_item"><a href="#menu" class="nav_link">Menu</a></li>
-          <!-- Enlace que lleva a la sección Menú -->
-
+          <li class="nav_item"><a href="#menu" class="nav_link">Menú</a></li>
           <li class="nav_item"><a href="#contact" class="nav_link">Contacto</a></li>
-          <!-- Enlace que debería llevar a la sección Contacto -->
         </ul>
       </div>
 
       <div class="nav_toggle">
-        <!-- Botón o ícono para mostrar/ocultar el menú en pantallas pequeñas -->
         <i class="bx bx-menu"></i>
-        <!-- Ícono de menú hamburguesa -->
       </div>
     </nav>
   </header>
 
   <main class="l-main">
-    <!-- Contenido principal de la página -->
-
     <section class="home" id="home">
-      <!-- Sección de inicio o portada -->
-
-      <div class="home_container tk_container tk-grid">
-        <!-- Contenedor con clases de diseño y distribución en grilla -->
-
+      <div class="home_container tk-container tk-grid">
         <div class="home_data">
-          <!-- Contenido de texto principal de la portada -->
-
           <h1 class="home_title">Movilidad y Aire Limpio</h1>
-          <!-- Título principal de la página -->
-
-          <h2 class="home_subtitle">Consulta información ambiental <BR>alternativas de movilidad sostenible.</BR></h2>
-          <!-- Subtítulo que describe el propósito del sitio -->
-
+          <h2 class="home_subtitle">
+            Consulta información ambiental <br>
+            alternativas de movilidad sostenible.
+          </h2>
           <a href="./Pages/explorar.html" class="button">Explorar</a>
-          <!-- Botón que lleva a otra página para explorar más contenido -->
         </div>
       </div>
     </section>
 
     <section class="about section tk-container" id="about">
-      <!-- Sección "Nosotros" o información sobre el proyecto -->
-
       <div class="about_container tk-grid">
-        <!-- Contenedor en grilla para organizar texto e imagen -->
-
         <div class="about_data">
-          <!-- Bloque de información textual -->
-
           <span class="section-subtitle about_initial">Calidad ambiental</span>
-          <!-- Subtítulo decorativo o introductorio -->
-
           <h2 class="section-title about_initial">
-            Calidad del aire y<br>
-            movilidad sostenible
+            Calidad del aire y<br>movilidad sostenible
           </h2>
-          <!-- Título principal de esta sección -->
-
           <p class="about_description">
             La calidad del aire es un factor fundamental para la salud y el bienestar de las personas.
             El aumento del tráfico vehicular y las emisiones contaminantes afectan el medio ambiente
@@ -117,232 +58,99 @@
             información ambiental, recomendaciones ecológicas y alternativas de transporte más limpias
             para construir ciudades más saludables y sostenibles.
           </p>
-          <!-- Párrafo descriptivo sobre la misión del proyecto -->
-
-          <a href="./Pages/vermas.html" class="button">Ver Mas</a>
-          <!-- Botón para ir a una página con más información -->
+          <a href="./Pages/vermas.html" class="button">Ver más</a>
         </div>
 
         <div class="about_data">
-          <!-- Bloque para mostrar imagen relacionada con la sección -->
-          <img src="./img/bicicleta.png" alt="" class="about_img">
-          <!-- Imagen representativa de movilidad sostenible -->
+          <img src="./img/bicicleta.png" alt="Bicicleta sostenible" class="about_img">
         </div>
       </div>
     </section>
 
     <section class="menu section tk-container" id="menu">
-      <!-- Sección donde se muestran opciones o módulos principales del sitio -->
-
       <span class="section-subtitle">MOVILIDAD SOSTENIBLE</span>
-      <!-- Subtítulo de la sección -->
-
-      <h2 class="section-title">
-        Construyendo ciudades más limpias y sostenibles
-      </h2>
-      <!-- Título principal de la sección -->
+      <h2 class="section-title">Construyendo ciudades más limpias y sostenibles</h2>
 
       <div class="menu_container tk-grid">
-        <!-- Contenedor en grilla para las tarjetas del menú -->
-
-        <!-- CALIDAD DEL AIRE -->
         <div class="menu_content">
-          <!-- Tarjeta de acceso a la sección de calidad del aire -->
-          <img src="./img/arbol.png" class="menu_img" alt="">
-          <!-- Imagen o ícono de la tarjeta -->
-
+          <img src="./img/arbol.png" class="menu_img" alt="Calidad del aire">
           <h3 class="menu_name">CALIDAD DEL AIRE</h3>
-          <!-- Nombre del módulo -->
-
           <span class="menu_detail">Consulta el estado del aire.</span>
-          <!-- Breve descripción -->
-
           <span class="menu_preci">Información en tiempo real</span>
-          <!-- Texto complementario -->
-
-          <a href="calidad-aire.html" class="button menu_button">
-            Ingresar
-          </a>
-          <!-- Botón para entrar a esa sección -->
+          <a href="calidad-aire.html" class="button menu_button">Ingresar</a>
         </div>
 
-        <!-- CALCULADORA -->
         <div class="menu_content">
-          <img src="./img/calculadora.png" class="menu_img" alt="">
+          <img src="./img/calculadora.png" class="menu_img" alt="Calculadora">
           <h3 class="menu_name">CALCULADORA</h3>
           <span class="menu_detail">Calcula tus emisiones.</span>
           <span class="menu_preci">Reduce tu impacto</span>
-
-          <a href="calculadora.html" class="button menu_button">
-            Ingresar
-          </a>
+          <a href="calculadora.html" class="button menu_button">Ingresar</a>
         </div>
 
-        <!-- CONSEJOS -->
         <div class="menu_content">
-          <img src="./img/consejos.png" class="menu_img" alt="">
+          <img src="./img/consejos.png" class="menu_img" alt="Consejos">
           <h3 class="menu_name">CONSEJOS</h3>
           <span class="menu_detail">Hábitos ecológicos.</span>
           <span class="menu_preci">Cuida el planeta</span>
-
-          <a href="./Pages/consejos.html" class="button menu_button">
-            Ingresar
-          </a>
-        </div>
-
-        <!-- CLIMA -->
-        <div class="menu_content">
-          <img src="./img/clima.png" class="menu_img" alt="">
-          <h3 class="menu_name">CLIMA</h3>
-          <span class="menu_detail">Consulta el clima.</span>
-          <span class="menu_preci">Datos actualizados</span>
-
-          <a href="./Pages/clima.html" class="button menu_button">
-            Ingresar
-          </a>
-        </div>
-
-        <!-- ECORUTA -->
-        <div class="menu_content">
-          <img src="./img/ecoruta.png" class="menu_img" alt="">
-          <h3 class="menu_name">ECORUTA</h3>
-          <span class="menu_detail">Conoce el proyecto.</span>
-          <span class="menu_preci">Movilidad sostenible</span>
-
-          <a href="./Pages/ecoruta.html" class="button menu_button">
-            Ingresar
-          </a>
-        </div>
-
-        <!-- FUTURO VERDE -->
-        <div class="menu_content">
-          <img src="./img/FUTURO_VERDE.png" class="menu_img" alt="">
-          <h3 class="menu_name">FUTURO VERDE</h3>
-          <span class="menu_detail">Un planeta más limpio.</span>
-          <span class="menu_preci">Haz el cambio hoy</span>
-
-          <a href="./Pages/futuroverde.html" class="button menu_button">
-            Ingresar
-          </a>
+          <a href="./Pages/consejos.html" class="button menu_button">Ingresar</a>
         </div>
       </div>
     </section>
 
     <section class="services section tk-container" id="services">
-      <!-- Sección de servicios o beneficios del proyecto -->
-
       <span class="section-subtitle">Nuestros Servicios</span>
-      <!-- Subtítulo de la sección -->
-
       <h2 class="section-title">Pequeñas acciones, grandes cambios.</h2>
-      <!-- Título principal -->
 
       <div class="services_container tk-grid">
-        <!-- Contenedor en grilla para los servicios -->
-
         <div class="services_content">
-          <!-- Tarjeta de servicio 1 -->
-          <img src="./img/bicicleta 1.1.png" class="services_img" alt="">
+          <img src="./img/bicicleta 1.1.png" class="services_img" alt="Movilidad ecológica">
           <h3 class="services_title">Movilidad Ecológica</h3>
           <p class="services_description">
-            Impulsamos el transporte sostenible mediante alternativas ecológicas que
-            reducen las emisiones y mejoran la movilidad urbana.
+            Impulsamos el transporte sostenible mediante alternativas ecológicas que reducen las emisiones y mejoran la movilidad urbana.
           </p>
         </div>
 
         <div class="services_content">
-          <!-- Tarjeta de servicio 2 -->
-          <img src="./img/tierra1.1.png" class="services_img" alt="">
+          <img src="./img/tierra1.1.png" class="services_img" alt="Naturaleza viva">
           <h3 class="services_title">Naturaleza Viva</h3>
           <p class="services_description">
-            Fomentamos el cuidado ambiental y la reforestación urbana para crear ciudades
-            más verdes, saludables y llenas de vida.
+            Fomentamos el cuidado ambiental y la reforestación urbana para crear ciudades más verdes, saludables y llenas de vida.
           </p>
         </div>
 
         <div class="services_content">
-          <!-- Tarjeta de servicio 3 -->
-          <img src="./img/sol.png" class="services_img" alt="">
+          <img src="./img/sol.png" class="services_img" alt="Energía limpia">
           <h3 class="services_title">Energía Limpia</h3>
           <p class="services_description">
-            Promovemos un clima sostenible mediante el uso de energías limpias y acciones
-            que ayudan a mantener un aire más puro para todos.
+            Promovemos un clima sostenible mediante el uso de energías limpias y acciones que ayudan a mantener un aire más puro para todos.
           </p>
         </div>
       </div>
-
-      <BR></BR>
-      <BR></BR>
-      <BR></BR>
-      <BR></BR>
-      <!-- Saltos de línea para dejar espacio vertical, aunque sería mejor usar CSS -->
-
-      <h2 class="section-title">Zonas de Parques y Áreas Verdes</h2>
-      <!-- Título para la sección del mapa -->
-
-      <span class="section-subtitle">
-        Las zonas ambientales y los parques urbanos ayudan a mejorar
-        la calidad del aire, reducir la contaminación y promover
-        espacios sostenibles para la movilidad y el bienestar de
-        las personas.
-      </span>
-      <!-- Texto descriptivo de la importancia de las áreas verdes -->
     </section>
 
     <section class="map">
-      <!-- Sección que contiene un mapa incrustado -->
-
       <iframe
         title="Ubicación en Google Maps"
         src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d37834.02948787661!2d-74.17912783691663!3d4.627521749699089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparques%20bogota!5e0!3m2!1ses-419!2sco!4v1779214626835!5m2!1ses-419!2sco"
         width="100%"
         height="450"
         style="border:0;"
-        allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade">
       </iframe>
-      <!-- Mapa de Google Maps incrustado para mostrar parques en Bogotá -->
     </section>
   </main>
 
   <footer class="footer section tk-container">
-    <!-- Pie de página del sitio -->
-
     <div class="footer_container tk-grid">
-      <!-- Contenedor principal del footer -->
-
-      <!-- LOGO -->
       <div class="footer_content">
-        <!-- Parte del footer con logo, descripción y redes sociales -->
         <a href="#" class="footer_logo">EcoRuta</a>
-        <span class="footer_description">
-          Movilidad sostenible para un futuro más limpio.
-        </span>
-
-        <div>
-          <a href="#" class="footer_social">
-            <i class="bx bxl-facebook"></i>
-          </a>
-          <!-- Ícono/enlace a Facebook -->
-
-          <a href="#" class="footer_social">
-            <i class="bx bxl-instagram"></i>
-          </a>
-          <!-- Ícono/enlace a Instagram -->
-
-          <a href="#" class="footer_social">
-            <i class="bx bxl-twitter"></i>
-          </a>
-          <!-- Ícono/enlace a Twitter -->
-        </div>
+        <span class="footer_description">Movilidad sostenible para un futuro más limpio.</span>
       </div>
 
-      <!-- SERVICIOS -->
       <div class="footer_content">
-        <!-- Lista de servicios rápidos en el footer -->
         <h3 class="footer_title">Servicios</h3>
-
         <ul>
           <li><a href="#" class="footer_link">Calidad del aire</a></li>
           <li><a href="#" class="footer_link">Calculadora ecológica</a></li>
@@ -351,11 +159,8 @@
         </ul>
       </div>
 
-      <!-- INFORMACIÓN -->
       <div class="footer_content">
-        <!-- Lista de enlaces informativos -->
         <h3 class="footer_title">Información</h3>
-
         <ul>
           <li><a href="#" class="footer_link">Sobre nosotros</a></li>
           <li><a href="#" class="footer_link">Política de privacidad</a></li>
@@ -364,11 +169,8 @@
         </ul>
       </div>
 
-      <!-- DIRECCIÓN -->
       <div class="footer_content">
-        <!-- Datos de contacto o ubicación -->
         <h3 class="footer_title">Dirección</h3>
-
         <ul>
           <li>Bogotá, Colombia</li>
           <li>Calle Verde #25-18</li>
@@ -378,11 +180,8 @@
       </div>
     </div>
 
-    <p class="footer_copy">
-      &#169; 2025 EcoRuta - Todos los derechos reservados.
-    </p>
-    <!-- Texto de derechos de autor -->
+    <p class="footer_copy">&#169; 2025 EcoRuta - Todos los derechos reservados.</p>
   </footer>
-</body>
 
+</body>
 </html>
